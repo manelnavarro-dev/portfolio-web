@@ -1,0 +1,21 @@
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .skills-tab,
+  .project,
+  .project p,
+  .project__tag {
+    transition-duration: 1s;
+  }
+
+  .skills-panel.is-opening,
+  .project-detail.is-opening {
+    animation-duration: 0.2s;
+  }
+
+  .skills-panel.is-opening .skill-level span {
+    animation: none;
+  }
+}

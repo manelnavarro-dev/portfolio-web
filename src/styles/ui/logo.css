@@ -1,0 +1,25 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-family: var(--font-code);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.logo__icon {
+  width: clamp(1.5rem, 3vw, 1.9rem);
+  height: clamp(1.5rem, 3vw, 1.9rem);
+  object-fit: contain;
+  border-radius: 0.35rem;
+}
+
+.logo__text {
+  font-size: clamp(1rem, 2vw, 1.15rem);
+}
+
+@media (max-width: 420px) {
+  .logo__text {
+    display: none;
+  }
+}

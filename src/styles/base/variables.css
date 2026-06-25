@@ -1,0 +1,73 @@
+:root {
+  --color-bg: #eeeeee;
+  --color-bg-light: #f8f8f8;
+  --color-text: #111111;
+  --color-muted: #5f5f5f;
+  --color-accent: #9aa8b8;
+  --color-line: #222222;
+
+  --font-main: "Krub", sans-serif;
+  --font-code: "M PLUS Code Latin", monospace;
+
+  --max-width: 1120px;
+  --header-height: 72px;
+  --space-page: clamp(1rem, 4vw, 2rem);
+  --radius-lg: 1.4rem;
+  --section-min-height: calc(100svh - var(--header-height));
+
+  --transition-fast: 0.2s ease;
+  --transition-soft: 0.6s ease;
+  --transition-move: 0.25s ease;
+
+  --skill-color-default: var(--color-accent);
+  --skill-color-python: #3776ab;
+  --skill-color-java: #f89820;
+  --skill-color-cpp: #00599c;
+  --skill-color-js: #f7df1e;
+  --skill-color-sqlite: #96ccef;
+  --skill-color-mongodb: #46a756;
+  --skill-color-nodejs: #7ba766;
+  --skill-color-json: #363636;
+  --skill-color-linux: #111111;
+  --skill-color-docker: #2496ed;
+  --skill-color-cloudflare: #e68831;
+  --skill-color-redis: #dc382d;
+  --skill-color-bash: #111111;
+  --skill-color-netlify: #51b9b7;
+  --skill-color-git: #f05032;
+  --skill-color-html: #e44d26;
+  --skill-color-css: #264de4;
+  --skill-color-figma: #9e5dfa;
+  --skill-color-react: #61dafb;
+  --skill-color-nextjs: #111111;
+  --skill-color-ultralyrics: #191e66;
+  --skill-color-deepstream: #76b900;
+  --skill-color-gstreamer: #ef4444;
+  --skill-color-onnx: #d1d1d1;
+  --skill-color-claude: #cd7d5e;
+  --skill-color-homeassistant: #41bdf5;
+  --skill-color-mqtt: #660066;
+  --skill-color-zigbee2mqtt: #ffc135;
+  --skill-color-zigbee: #db3746;
+  --skill-color-marlin: #111111;
+  --skill-color-onshape: #58a730;
+  --skill-color-prusaslicer: #dd742f;
+}
+
+@media (max-width: 600px) {
+  :root {
+    --header-height: 68px;
+  }
+}
+
+@media (max-width: 420px) {
+  :root {
+    --space-page: 1rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  :root {
+    --max-width: 1240px;
+  }
+}

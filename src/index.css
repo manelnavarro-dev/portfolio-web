@@ -1,0 +1,24 @@
+@import "normalize.css";
+
+@import "./styles/base/fonts.css";
+@import "./styles/base/variables.css";
+@import "./styles/base/globals.css";
+@import "./styles/base/animations.css";
+
+@import "./styles/layout/sections.css";
+@import "./styles/layout/header.css";
+@import "./styles/layout/footer.css";
+@import "./styles/layout/legal-page.css";
+
+@import "./styles/features/hero.css";
+@import "./styles/features/skills.css";
+@import "./styles/features/projects.css";
+@import "./styles/features/contact.css";
+@import "./styles/features/cookie-banner.css";
+
+@import "./styles/ui/logo.css";
+@import "./styles/ui/section-heading.css";
+@import "./styles/ui/orientation-lock.css";
+@import "./styles/ui/scroll-to-top.css";
+
+@import "./styles/base/accessibility.css";

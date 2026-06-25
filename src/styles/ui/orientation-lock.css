@@ -1,0 +1,45 @@
+.orientation-lock {
+  display: none;
+}
+
+@media (max-width: 950px) and (max-height: 520px) and (orientation: landscape) {
+  body {
+    overflow: hidden;
+  }
+
+  .orientation-lock {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg);
+    color: var(--color-text);
+    text-align: center;
+  }
+
+  .orientation-lock__content {
+    max-width: 420px;
+    font-family: var(--font-code);
+  }
+
+  .orientation-lock__icon {
+    margin: 0 0 1rem;
+    font-size: 4rem;
+    line-height: 1;
+  }
+
+  .orientation-lock__title {
+    margin: 0 0 0.8rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .orientation-lock__text {
+    margin: 0;
+    color: var(--color-muted);
+    line-height: 1.6;
+  }
+}
