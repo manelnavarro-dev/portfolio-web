@@ -1,4 +1,4 @@
-import avatar from "@/shared/assets/images/avatar.png";
+import avatar from "@/shared/assets/images/avatar.webp";
 
 export function Hero() {
   return (

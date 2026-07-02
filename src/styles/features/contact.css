@@ -47,10 +47,6 @@
   color: var(--color-bg);
 }
 
-.contact .LI-profile-badge {
-  margin: 2.5rem auto 0;
-}
-
 @media (max-width: 600px) {
   .contact__links {
     flex-direction: column;
