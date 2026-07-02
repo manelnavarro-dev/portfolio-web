@@ -1,10 +1,11 @@
-import avatar from "@/shared/assets/images/avatar.webp";
+import avatar from "@/shared/assets/images/avatar-768.avif";
 
 export function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero__intro">
         <p className="hero__eyebrow">Hola mi nombre es</p>
+
         <h1 className="hero__title">
           Manel
           <br />
@@ -13,7 +14,14 @@ export function Hero() {
       </div>
 
       <div className="hero__avatar">
-        <img src={avatar} alt="Avatar de Manel con portátil" />
+        <img
+          src={avatar}
+          width={768}
+          height={1152}
+          alt="Avatar de Manel con portátil"
+          loading="eager"
+          fetchPriority="high"
+        />
       </div>
 
       <div className="hero__content">

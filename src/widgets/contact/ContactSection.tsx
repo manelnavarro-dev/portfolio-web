@@ -15,7 +15,6 @@ export function ContactSection() {
             Descargar CV
           </a>
         </div>
-        <div className="badge-base LI-profile-badge" data-locale="es_ES" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="manel-navarro-288857419" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://es.linkedin.com/in/manel-navarro-288857419?trk=profile-badge"></a></div>
       </div>
     </section>
   );
